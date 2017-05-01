@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmSize":   { "value": "Standard_D1" },
+    "username": { "value": "YOUR USER" },
+    "password": { "value": "YOUR PASSWORD!" },
+    "dnsNameForPublicIP": { "value": "YOUR UNIQUE DNS NAME"  },
+    "existingVirtualNetworkName": { "value": "EXAMPLE supervnet" },
+    "existingSubnetName": { "value": "EXAMPLE supersubnet" },
+    "existingVirtualNetworkResourceGroup": { "value": "YOUR RESOURCE GROUP" }
+  }
+}

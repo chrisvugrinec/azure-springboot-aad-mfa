@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: hworld-service 
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      nodePort: 30000
+  selector:
+    "app": "hello-world"

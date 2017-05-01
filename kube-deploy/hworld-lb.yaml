@@ -1,0 +1,17 @@
+{
+  "kind": "Service",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "hworld-service"
+  },
+  "spec": {
+    "ports": [{
+      "port": 8080,
+      "targetPort": 8080
+    }],
+    "selector": {
+      "app": "hello-world"
+    },
+    "type": "LoadBalancer"
+  }
+}

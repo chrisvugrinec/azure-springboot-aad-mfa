@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: XXX_APP_XXX
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: XXX_APP_XXX
+    spec:
+      containers:
+      - name: XXX_APP_XXX
+        image: XXX_DOCKERIMG_XXX:XXX_BUILDNR_XXX
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: secrets

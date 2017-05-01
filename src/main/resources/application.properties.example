@@ -1,0 +1,9 @@
+server.context_parameters.authority=https://login.windows.net/
+server.context_parameters.tenant=YOURTENANTNAME.onmicrosoft.com
+clientId=535e93c9-SOMESECRETID-2c0528b7603b
+clientSecret=l02OvBr7WWinoAKk9SOMESECRETzyk2L3vA6dH4M=
+tenant=YOURTENANTNAME.onmicrosoft.com
+authority=https://login.windows.net/
+authenticatedpaths=/hello
+server.contextPath=/
+server.session.persistent=true
